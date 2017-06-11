@@ -6,7 +6,7 @@ Any member of the Chingu organization can directly contribute to the repo. Howev
 
 1. Intend to keep changes as small as practical - i.e, don't make changes to multiple sections at once
 1. [Create a branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) describing the change you are making, e.g. `add-commit-amending-howto`
-1. Open a [Pull Request (PR)](https://help.github.com/articles/about-pull-requests/) from your branch into ``master`` assigning an "editor" for review. Once we get this more mature we'll maintain a list of "editors" in a separate file. Until that point you can assign [joshmorel](https://github.com/joshmorel)
+1. Open a [Pull Request (PR)](https://help.github.com/articles/about-pull-requests/) from your branch into ``master`` assigning an ["editor" for review](AUTHORS.md).
 
 Again, this is a very new repo - so we'll be figuring this out as we go along. Contributions from non-Chingu users will also be welcome, but a fork will be required.
 

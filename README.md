@@ -1,6 +1,6 @@
 # GitHub Tips by Chingu
 
-[Contributing guidelines](CONTRIBUTING.md)
+[Credits](AUTHORS.md) ∙ [Contributing guidelines](CONTRIBUTING.md)
 
 
 ## Table of Contents
