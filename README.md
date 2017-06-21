@@ -61,7 +61,7 @@ There is also the **Owner** role who can invite and delete members, add billing 
 
 ### Teams and Organization Repos
 
-#### Organization Repos 
+#### Organization Repos
 
 As mentioned previously all team members have the ability to create organization repos. They then have the ability to change permissions on that [repo for different users](https://help.github.com/articles/repository-permission-levels-for-an-organization/#changing-repository-settings]) so that specific people can collaborate.
 
@@ -71,21 +71,27 @@ To better organize permissions on a repo there are **Teams**.
 
 Any organization member can create a team which is the perfect equivalent to the Chingu build.to.learn teams. To do so, click on the **Teams** tab then click **New**.
 
-*TODO*: Suggest naming convention for teams and repos.
+1. Go to the ``Teams`` tab and click the ``New team``.
+2. In the ``Create new team`` window you can at this point provide select a ``Parent team``. If left unselected, the parent will be the organization. Even if the team has a parent, each team must have a unique name within the *organization* (so you can't have, for example, both "llamas/team1" and "dolphins/team1")
+3. At this point you can add one or more members, a repository or even a sub-team.
 
 After creation, you will be taken to the team page. Here you can add members by clicking the **Add a member** button then search by username, full name, or email. Click on the user to add them. You will be prompted for your password before continuing.
 
 If they are in the organization they will automatically added. If they are not, then an invite will be sent to them which they must accept. For more [see the docs](https://help.github.com/articles/adding-organization-members-to-a-team/).
 
-After adding, team members can be promoted to the **Maintainer** role. Maintainers have the [following permissions](https://help.github.com/articles/repository-permission-levels-for-an-organization/#team-maintainers). 
+After adding, team members can be promoted to the **Maintainer** role. Maintainers have the [following permissions](https://help.github.com/articles/repository-permission-levels-for-an-organization/#team-maintainers).
 
-#### Team Repos
+#### Creating Repos
 
-Those with admin access to an organization repo (the creator, those granted admin access, or the organization owner) can add that repo to any team they belong to. To do so, click on the **Repositories** tab, click **Add repository** then search for the repo and select it.
+To create an organization repo:
 
-Now all members of the team will have Admin access. This access can be changed by navigating to **Settings** then **Collaborators & team** within the repo. More about repository permission levels can be [read here](https://help.github.com/articles/repository-permission-levels-for-an-organization/).
+1. From the organization's main page click ``New repository`` or if already on the ``Repositories`` tab click ``New``
+1. Enter a name, for example "llamas-b2l-team2-splash", and click ``Create Repository``. You can also optionally initialize the repo with a [README.md](https://gist.github.com/zenorocha/4526327) at this point.
+1. To add the repo to a team, within the repo page navigate to **Settings** then **Collaborators & team**. Select the team from the ``Add a team`` drop-down (or create it now).
+1. Select the team permission level - those with ``Write`` permission can complete most activity required for collaborative coding. More about repository permission levels can be [read here](https://help.github.com/articles/repository-permission-levels-for-an-organization/).
 
-*TODO*:
+It is important to note that the repo still "belongs" to the organization and thus the repo name must be unique. For example, you cannot have both "llamas-b2l-team2/*splash-page*" and "dolphins-b2l-team4/*splash-page*". The primary value of teams is thus to organize users who should have like permissions, instead of organizing repos.
 
-* [ ] Diagrams? Maybe with (draw.io)[https://www.draw.io/]
-* [ ] Technical details on how to follow GitHub Flow with examples
+TODO: Add diagram about relationships between different components.
+
+TODO: Add details about projects
