@@ -61,33 +61,28 @@ There is also the **Owner** role who can invite and delete members, add billing 
 
 ### Teams and Organization Repos
 
-#### Organization Repos
+Although all members can create organization repo, they must specifically manage permissions on that [repo for each member](https://help.github.com/articles/repository-permission-levels-for-an-organization/#changing-repository-settings]) they want to collaborate with. An option to better organize permissions on multiple repos is the use of **Teams**.
 
-As mentioned previously all team members have the ability to create organization repos. They then have the ability to change permissions on that [repo for different users](https://help.github.com/articles/repository-permission-levels-for-an-organization/#changing-repository-settings]) so that specific people can collaborate.
+*Any* organization member can create a team.
 
-To better organize permissions on a repo there are **Teams**.
-
-#### Teams
-
-Any organization member can create a team which is the perfect equivalent to the Chingu build.to.learn teams. To do so, click on the **Teams** tab then click **New**.
+**To create a Team**:
 
 1. Go to the ``Teams`` tab and click the ``New team``.
-2. In the ``Create new team`` window you can at this point provide select a ``Parent team``. If left unselected, the parent will be the organization. Even if the team has a parent, each team must have a unique name within the *organization* (so you can't have, for example, both "llamas/team1" and "dolphins/team1")
-3. At this point you can add one or more members, a repository or even a sub-team.
+1. In the ``Create new team`` window you can at this point select a ``Parent team``. If left unselected, the parent will be the organization itself. Even if the team has a parent, each team must have a unique name within the *organization* (so you can't have, for example, both "llamas/team1" and "dolphins/team1")
+1. At this point you can add one or more members, a repository or even a sub-team.
 
-After creation, you will be taken to the team page. Here you can add members by clicking the **Add a member** button then search by username, full name, or email. Click on the user to add them. You will be prompted for your password before continuing.
+**To add a member**:
 
-If they are in the organization they will automatically added. If they are not, then an invite will be sent to them which they must accept. For more [see the docs](https://help.github.com/articles/adding-organization-members-to-a-team/).
+1. Click on **Add a member** button then search by username, full name or email.
+1. Click on the user to add them, you will be prompted for your password before continuing.
+1. If they are in the organization they will automatically added. If they are not, then an invite will be sent to them which they must accept. For more [see the docs](https://help.github.com/articles/adding-organization-members-to-a-team/).
+1. After adding, team members can be promoted to the **Maintainer** role. Maintainers have the [following permissions](https://help.github.com/articles/repository-permission-levels-for-an-organization/#team-maintainers).
 
-After adding, team members can be promoted to the **Maintainer** role. Maintainers have the [following permissions](https://help.github.com/articles/repository-permission-levels-for-an-organization/#team-maintainers).
-
-#### Creating Repos
-
-To create an organization repo:
+**To create an organization/team repo**:
 
 1. From the organization's main page click ``New repository`` or if already on the ``Repositories`` tab click ``New``
 1. Enter a name, for example "llamas-b2l-team2-splash", and click ``Create Repository``. You can also optionally initialize the repo with a [README.md](https://gist.github.com/zenorocha/4526327) at this point.
-1. To add the repo to a team, within the repo page navigate to **Settings** then **Collaborators & team**. Select the team from the ``Add a team`` drop-down (or create it now).
+1. To add the repo to a team, within the repo page navigate to **Settings** then **Collaborators & team**. Select the team from the ``Add a team`` drop-down (or create it now). Note: you must be a member of that team or organization owner to do so.
 1. Select the team permission level - those with ``Write`` permission can complete most activity required for collaborative coding. More about repository permission levels can be [read here](https://help.github.com/articles/repository-permission-levels-for-an-organization/).
 
 It is important to note that the repo still "belongs" to the organization and thus the repo name must be unique. For example, you cannot have both "llamas-b2l-team2/*splash-page*" and "dolphins-b2l-team4/*splash-page*". The primary value of teams is thus to organize users who should have like permissions, instead of organizing repos.
