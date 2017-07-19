@@ -14,6 +14,9 @@
 
 GitHub.com is an amazing code collaboration platform which has enabled several open source project to flourish. Contributing to projects on GitHub for those new to the platform, however, can be both intimidating and confusing. This repo aims to provide some clarity on the features and workflows of GitHub.
 
+There is no intention to re-invent the wheel however! So a visit to GitHub's own learning resources [described here](#github-flow-tutorial) is a top recommendation.
+
+
 ## The Chingu GitHub Organization
 
 [Chingu](https://tropicalchancer.github.io/projectus/) is a self-organizing coding bootcamp community and innovative collaboration project. It's also now a GitHub organization! The reasons for this organization's existence include the following:
@@ -43,6 +46,12 @@ There are two predominate models for collaborating on GitHub projects:
 For both models, [different rules](https://help.github.com/articles/enabling-required-status-checks/) can be created as to what is required before acceptance of a PR and corresponding merge of changes into the master branch. In any case, directly pushing to master from local is either not allowed or just not good practice as it prevents the opportunity for conservation and code review on the desired changes.
 
 Both of these workflows follow what is called "GitHub flow" illustrated here in this [GitHub guide](https://guides.github.com/introduction/flow/).
+
+### GitHub Flow Tutorial
+
+Want an easy introduction to GitHub with an actual repository? GitHub has created a great tutorial provided through their [On Demand Training site](https://services.github.com/on-demand/). Just complete the **GitHub 101: Introduction to GitHub** course and you will have completed a contribution to a real repository using GitHub flow. Can you identify if it uses the "Fork & Pull" or "Shared Repository" model.
+
+GitHub also hosts many other [learning resources](https://services.github.com/resources/learning-path/) as well as a [GitHub cheat sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf).
 
 ## Working with Organizations
 
